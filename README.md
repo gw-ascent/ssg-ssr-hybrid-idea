@@ -36,6 +36,6 @@
     - ex) /page/profile/\[id\], /page/reset-pw/\[id\]
 - 이 폴더의 소스들은 서버 사이드에서 렌더링 하여 서비스 합니다.
 
-## /middleware 디렉토리
-- 서버에서 제공하는 Rest API 서비스는 없지만 외부의 Rest API 서버와 통신 할때 CORS 이슈를 해결하는 등의 미들웨어를 위한 소스 코드를 이곳에 위치 시킵니다.
-- /page... 에서는 localhost의 엔드포인트
+## /api 디렉토리
+- 서버에서 제공하는 Rest API 서비스는 없지만 외부의 Rest API 서버와 통신 할때 CORS 이슈를 해결하는 등에 사용.
+- /page... 에서는 hostnmae 명시하지 않고 사용가능한 엔드포인트
