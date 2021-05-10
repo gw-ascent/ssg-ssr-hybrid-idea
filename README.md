@@ -1,7 +1,7 @@
 # SSG & SSR 하이브리드 웹 앱을 위한 파일 시스템 구조 아이디어
 
 ## Static Site Generator 측면
-- 참고: [Next.js의 dynamic-routes](https://nextjs.org/docs/routing/dynamic-routes)
+- 참고: [Next.js의 pages](https://nextjs.org/docs/basic-features/pages)
 - /page 그 자신과 그의 모든 하위 디렉토리는 아래와 같은 구조를 갖습니다.
     - 루트 디렉토리인 /page만 /404 에러에 대응하는 특별한 dir을 갖습니다.
 ```
