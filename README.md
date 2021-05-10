@@ -39,3 +39,11 @@
 ## /api 디렉토리
 - 서버에서 제공하는 Rest API 서비스는 없지만 외부의 Rest API 서버와 통신 할때 CORS 이슈를 해결하는 등에 사용.
 - /page... 에서는 hostnmae 명시하지 않고 사용가능한 엔드포인트
+
+## /components
+- 참고: [Next.js의 Auth](https://nextjs.org/docs/authentication)
+- 레이아웃, 로그인 상태, UI 요소등 전 페이지에 걸쳐 사용 되는 컴포넌트
+
+
+## issues
+- 마크업 템플릿 엔진이나 JSX등을 고려할 필요
