@@ -40,10 +40,12 @@
 - 서버에서 제공하는 Rest API 서비스는 없지만 외부의 Rest API 서버와 통신 할때 CORS 이슈를 해결하는 등에 사용.
 - /page... 에서는 hostnmae 명시하지 않고 사용가능한 엔드포인트
 
-## /components
+## /component
 - 참고: [Next.js의 Auth](https://nextjs.org/docs/authentication)
 - 레이아웃, 로그인 상태, UI 요소등 전 페이지에 걸쳐 사용 되는 컴포넌트
 
 
 ## issues
-- 마크업 템플릿 엔진이나 JSX등을 고려할 필요
+- Next.js가 component 라이브러리를 운용하기 좋은 이유는 리액트의 장점을 적극 활용하기 때문으로 보입니다.
+- 가능한 웹 표준 기술을 사용하면서 웹 ui를 컴포넌트단위로 개발하고자 아래 기술의 아이디어를 차용 하는 것이 좋을 듯 합니다.
+    - [Web Comopnent](https://www.webcomponents.org/introduction)
